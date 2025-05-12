@@ -1,0 +1,22 @@
+/* Özel Sekme Stilleri */
+.card-header .nav-tabs.card-header-tabs .nav-item .nav-link {
+    background-color: #ffffff !important;
+    color: #2c3e50 !important;
+    border: 1px solid #dee2e6 !important;
+    border-bottom: none !important;
+    margin-right: 5px !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+
+.card-header .nav-tabs.card-header-tabs .nav-item .nav-link.active {
+    background: linear-gradient(to right, #2ecc71, #3498db) !important;
+    color: white !important;
+    border: 1px solid #dee2e6 !important;
+    border-bottom: none !important;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1) !important;
+}
+
+.card-header .nav-tabs.card-header-tabs .nav-item .nav-link:not(.active):hover {
+    background-color: #f8f9fa !important;
+    color: #2c3e50 !important;
+} 
